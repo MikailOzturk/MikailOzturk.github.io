@@ -1,0 +1,461 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MyWorld</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+
+    <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            /* Add a gray background color with some padding */
+            body {
+              font-family: Arial;
+              padding: 20px;
+              background: #f1f1f1;
+            }
+            
+            /* Header/Blog Title */
+            .blog1header {
+              padding: 30px;
+              font-size: 40px;
+              text-align: center;
+              background: white;
+            }
+            
+            /* Create two unequal columns that floats next to each other */
+            /* Left column */
+            .blog1leftcolumn {   
+              float: left;
+              width: 100%;
+            }
+            
+            /* Right column */
+            .blog1rightcolumn {
+              float: left;
+              width: 100%;
+              padding-left: 20px;
+            }
+            
+            /* Fake image */
+            .blog1fakeimg {
+              background-color: #aaa;
+              width: 100%;
+              padding: 20px;
+            }
+            
+            /* Add a card effect for articles */
+            .blog1card {
+               background-color: white;
+               padding: 20px;
+               margin-top: 20px;
+            }
+            
+            /* Clear floats after the columns */
+            .blog1row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            
+            
+            /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 800px) {
+              .blog1leftcolumn, .blog1rightcolumn {   
+                width: 100%;
+                padding: 0;
+              }
+            }
+            </style>
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/vss.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Mikail Öztürk</a></h1>
+                <span class="position"><a href="#">Front-End Developer</a> in Turkey</span><br>
+                <h1><a href="index.html" >Anasayfa</a></h1><br>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+
+                    
+				<div id="navbar" class="collapse">
+					<ul>
+						
+                        <li><a href="#" data-nav-section="blog">Blog</a></li>
+						<li><a href="#" data-nav-section="blog1">Blog 1</a></li>
+						<li><a href="#" data-nav-section="blog2">blog 2</a></li>
+						
+						<li><a href="#" data-nav-section="contact">İletişim</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							
+							<h2 class="colorlib-heading">Recent Blog</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="#" data-nav-section="blog1">NoSQL Nedir Avantajları ve Dezavantajları Hakkında Bilgi</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Make website from scratch</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="colorlib-blog" data-section="blog1">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							
+						</div>
+					</div>
+					<div class="row">
+						
+						
+                                    <div class="blog1header">
+                                            <h1>
+                                                    NoSQL
+                                                    </h1>
+                                          </div>
+                                          
+                                          <div class="blog1row">
+                                            <div class="blog1leftcolumn">
+                                              <div class="blog1card">
+                                                <h2>NoSQL Nedir Avantajları ve Dezavantajları Hakkında Bilgi</h2>
+                                                <h5>Title description, Dec 7, 2019</h5>
+                                                <div class="blog1fakeimg" style="height:200px;">Image</div>
+                                                <h3>NoSQL Veritabanlarının Doğmasını Sağlayan Temel Sorun Nedir?</h3>
+                                                <p>NoSQL sistemlerinin ortaya çıkmasındaki en büyük sebep internetin hızlanması ile büyümekte olan ve yapısal olmayan internetteki verinin İlişkisel Veritabanı Yönetim Sistemlerinde performanslı bir şekilde işlenememesidir. Veri büyüklüğü ve trafik olarak belirli büyüklüğe gelen ve hali hazırda açık kaynaklı veritabanı sistemleri kullanan firmalar bir noktada bu veritabanlarının kısıtlarına takılmaktadırlar. Dikey büyüme maliyetli olduğundan, yatayda büyüyebilmek için daha fazla önbellek (cache) kullanımı, verinin programatik olarak dağıtılması (sharding) gibi teknikleri denemektedirler. Bu uygulamaların da yetmediği durumda NoSQL sistemleri ortaya çıkmaya başlamıştır.
+                                     
+                                                 Google bu gereksinimi Big Table adını verdiği NoSQL veritabanı sistemi ile Amazon ise DynamoDB ismini verdiği NoSQL veritabanı sistemi ile çözmektedir. İnternetteki en büyük veri hacmine sahip olduğu bilinen Google firması, internet verisini İlişkisel Veritabanları yerine BigTable’da tutmayı tercih etmektedir. Google firmasının bu tercihi yapma sebebi ise veriye ilişkisel veritabanı sistemlerine nazaran daha hızlı ve daha ucuza erişebiliyor olmasıdır. Daha ucuza erişebilmesini sağlayan önemli bir faktör de dikey büyüme yerine yatayda büyüme ile gereksiz ek maliyetten kurtulmalarıdır.
+                                     
+                                                 Yatay Büyüme ve Dikey Büyüme Arasındaki Fark Nedir?
+                                     
+                                                  Dikey büyüme sistem kaynaklarınızın yetersiz kalması durumunda sistemi yenilemeniz veya sisteme ek donanım almak ile olur iken yatay büyümede ek bir sunucu alarak işlem yüklerini sunuculara bölmek ile sağlanır. Böylelikle Sunucuyu üst versiyonlara çıkarmak için çıkan karşılaşılan  maliyeti ek bir sunucu veya mainframe bir bilgisayarla sağlanmış olunur.</p>
+                                     
+                                                 <h3>NoSQL Sistemlerin Avantajları Nelerdir?</h3>
+                                                 <p>NoSQL veritabanı sistemleri ilişkisel veritabanlarına göre yüksek erişilebilirlik imkanı sunarlar.</p>
+                                                 <p>NoSQL veritabanı sistemleri okuma ve yazma performansları olarak göreceli olarak ilişkisel veritabanı sistemlerine göre daha performanslı olabilirler.</p>
+                                                 <p>NoSQL veritabanı sistemleri yatay olarak genişletilebilirler. Binlerce sunucu birarada küme olarak çalışabilir ve çok büyük veri üzerinde işlem yapabilirler.</p>        
+                                                 <p>NoSQL veritabanı sistemleri esnek yapılarından dolayı programlama ve bakım anlamında kolaylık sağlarlar.</p>
+                                                 <p>NoSQL veritabanı sistemlerinde farklı özelliklere sahip birçok implementasyon arasından seçim yapma şansınız vardır.</p>
+                                                 <p>NoSQL veritabanı sistemleri birçok açık kaynak kodlu projelere ve bulut bilişim teknolojilerine uygun olduğu için maliyet olarak ilişkisel veritabanı yönetim sistemlerine göre daha avantajlıdır.</p>
+                                     
+                                                 <h3>NoSQL Sistemlerin Dezavantajları Nelerdir?</h3>
+                                     
+                                                 <p>İlişkisel veritabanı yönetim sistemlerini kullanan uygulamaların NoSQL sistemlere taşınması başlangıçta zor olacaktır. Veri başarılı bir şekilde taşınsa bile bağlantıyı (join) kullanan kodlarda düzenlemelerin yapılması gerekecektir.</p>
+                                                 <p>İlişkisel veritabanı yönetim sistemlerindeki sorgu tabanlı veri erişimi yerine NoSQL sistemlerdeki anahtar tabanlı veri erişimi sağlamak gerekmektedir. Buna göre bir yapılandırmaya gidilmesi zaman alabilmektedir.</p>
+                                                 <p>İlişkisel veritabanı yönetim sistemlerindeki  işlem hareketleri (transaction) kavramı, NoSQL veritabanı sistemlerinde bulunmadığı için veri kaybı söz konusu olabilmektedir.</p>
+                                                 <p>NoSQL veritabanı sistemleri veri güvenliği konusunda ilişkisel veritabanı yönetim sistemleri kadar gelişmiş özelliklere henüz sahip değiller. BazıNoSQL projelerin dökümantasyon ve profesyonel destek konusunda eksikleri vardır.</p>   
+                                      
+
+                                            </div>
+                                              
+                                            <div class="blog1rightcolumn">
+                                              <div class="blog1card">
+                                                <h2>About Me</h2>
+                                                <div class="fakeimg" style="height:100px;">Image</div>
+                                                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                                              </div>
+                                             
+                                              <div class="blog1card">
+                                                <h3>Follow Me</h3>
+                                                <p>Some text..</p>
+                                              </div>
+                                            </div>
+                                          </div>
+						
+					</div>
+				
+				</div>
+            </section>
+            
+            <section class="colorlib-blog" data-section="blog2">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                            
+                                        <div class="blog1header">
+                                                <h2>Blog Name</h2>
+                                              </div>
+                                              
+                                              <div class="blog1row">
+                                                <div class="blog1leftcolumn">
+                                                  <div class="blog1card">
+                                                    <h2>TITLE HEADING</h2>
+                                                    <h5>Title description, Dec 7, 2017</h5>
+                                                    <div class="blog1fakeimg" style="height:200px;">Image</div>
+                                                    <h3>NoSQL Veritabanlarının Doğmasını Sağlayan Temel Sorun Nedir?</h3>
+                                                    <p>NoSQL sistemlerinin ortaya çıkmasındaki en büyük sebep internetin hızlanması ile büyümekte olan ve yapısal olmayan internetteki verinin İlişkisel Veritabanı Yönetim Sistemlerinde performanslı bir şekilde işlenememesidir. Veri büyüklüğü ve trafik olarak belirli büyüklüğe gelen ve hali hazırda açık kaynaklı veritabanı sistemleri kullanan firmalar bir noktada bu veritabanlarının kısıtlarına takılmaktadırlar. Dikey büyüme maliyetli olduğundan, yatayda büyüyebilmek için daha fazla önbellek (cache) kullanımı, verinin programatik olarak dağıtılması (sharding) gibi teknikleri denemektedirler. Bu uygulamaların da yetmediği durumda NoSQL sistemleri ortaya çıkmaya başlamıştır.
+                                         
+                                                     Google bu gereksinimi Big Table adını verdiği NoSQL veritabanı sistemi ile Amazon ise DynamoDB ismini verdiği NoSQL veritabanı sistemi ile çözmektedir. İnternetteki en büyük veri hacmine sahip olduğu bilinen Google firması, internet verisini İlişkisel Veritabanları yerine BigTable’da tutmayı tercih etmektedir. Google firmasının bu tercihi yapma sebebi ise veriye ilişkisel veritabanı sistemlerine nazaran daha hızlı ve daha ucuza erişebiliyor olmasıdır. Daha ucuza erişebilmesini sağlayan önemli bir faktör de dikey büyüme yerine yatayda büyüme ile gereksiz ek maliyetten kurtulmalarıdır.
+                                         
+                                                     Yatay Büyüme ve Dikey Büyüme Arasındaki Fark Nedir?
+                                         
+                                                      Dikey büyüme sistem kaynaklarınızın yetersiz kalması durumunda sistemi yenilemeniz veya sisteme ek donanım almak ile olur iken yatay büyümede ek bir sunucu alarak işlem yüklerini sunuculara bölmek ile sağlanır. Böylelikle Sunucuyu üst versiyonlara çıkarmak için çıkan karşılaşılan  maliyeti ek bir sunucu veya mainframe bir bilgisayarla sağlanmış olunur.</p>
+                                         
+                                                     <h3>NoSQL Sistemlerin Avantajları Nelerdir?</h3>
+                                                     <p>NoSQL veritabanı sistemleri ilişkisel veritabanlarına göre yüksek erişilebilirlik imkanı sunarlar.</p>
+                                                     <p>NoSQL veritabanı sistemleri okuma ve yazma performansları olarak göreceli olarak ilişkisel veritabanı sistemlerine göre daha performanslı olabilirler.</p>
+                                                     <p>NoSQL veritabanı sistemleri yatay olarak genişletilebilirler. Binlerce sunucu birarada küme olarak çalışabilir ve çok büyük veri üzerinde işlem yapabilirler.</p>        
+                                                     <p>NoSQL veritabanı sistemleri esnek yapılarından dolayı programlama ve bakım anlamında kolaylık sağlarlar.</p>
+                                                     <p>NoSQL veritabanı sistemlerinde farklı özelliklere sahip birçok implementasyon arasından seçim yapma şansınız vardır.</p>
+                                                     <p>NoSQL veritabanı sistemleri birçok açık kaynak kodlu projelere ve bulut bilişim teknolojilerine uygun olduğu için maliyet olarak ilişkisel veritabanı yönetim sistemlerine göre daha avantajlıdır.</p>
+                                         
+                                                     <h3>NoSQL Sistemlerin Dezavantajları Nelerdir?</h3>
+                                         
+                                                     <p>İlişkisel veritabanı yönetim sistemlerini kullanan uygulamaların NoSQL sistemlere taşınması başlangıçta zor olacaktır. Veri başarılı bir şekilde taşınsa bile bağlantıyı (join) kullanan kodlarda düzenlemelerin yapılması gerekecektir.</p>
+                                                     <p>İlişkisel veritabanı yönetim sistemlerindeki sorgu tabanlı veri erişimi yerine NoSQL sistemlerdeki anahtar tabanlı veri erişimi sağlamak gerekmektedir. Buna göre bir yapılandırmaya gidilmesi zaman alabilmektedir.</p>
+                                                     <p>İlişkisel veritabanı yönetim sistemlerindeki  işlem hareketleri (transaction) kavramı, NoSQL veritabanı sistemlerinde bulunmadığı için veri kaybı söz konusu olabilmektedir.</p>
+                                                     <p>NoSQL veritabanı sistemleri veri güvenliği konusunda ilişkisel veritabanı yönetim sistemleri kadar gelişmiş özelliklere henüz sahip değiller. BazıNoSQL projelerin dökümantasyon ve profesyonel destek konusunda eksikleri vardır.</p>   
+                                          
+                                                </div>
+                                                  
+                                                <div class="blog1rightcolumn">
+                                                  <div class="blog1card">
+                                                    <h2>About Me</h2>
+                                                    <div class="fakeimg" style="height:100px;">Image</div>
+                                                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                                                  </div>
+                                                 
+                                                  <div class="blog1card">
+                                                    <h3>Follow Me</h3>
+                                                    <p>Some text..</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                            
+                        </div>
+                    
+                    </div>
+                </section>
+
+                <section id="colorlib-hero" class="js-fullheight" data-section="blog">
+                        <div class="colorlib-narrow-content">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                    
+                                    <h2 class="colorlib-heading">Recent Blog</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12 animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="blog-entry">
+                                        <a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                                        <div class="desc">
+                                            <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+                                            <h3><a href="blog.html">Renovating National Gallery</a></h3>
+                                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                               
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 animate-box">
+                                    <p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="#">info@domain.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">+123 456 7890</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
