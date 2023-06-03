@@ -1,736 +1,505 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>MyWorld</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <title>Template</title>
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/template-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Mikail Öztürk</h4>
+              <span>Computer Engineer</span><br>
+              <span>Software Developer</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Mikail</a></li>
+                <li><a href="#section2">What I’m good at</a></li>
+                <li><a href="#section3">My Work</a></li>
+                <li><a href="#section4">Contact Me</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://fb.com/mikail"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/mikail-%C3%B6zt%C3%BCrk-7067a213a/"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/vss.jpg);"> 	</div>
-				
-				<h1 id="colorlib-logo"><a href="index.html">Mikail Öztürk</a></h1>
-				<span class="position"><a href="#">Software Developer</a></span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home Page</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="skills">Abilities</a></li>
-						<li><a href="#" data-nav-section="education">education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span>
+               My name is Mikail
+            </span>
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/left-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>Mikail HTML CSS Template</h4>
+                  <p>
+                    Donec tristique feugiat lacus, at sollicitudin nunc euismod
+                    sed. Mauris viverra, erat non sagittis gravida, elit dui
+                    mollis ante, sit amet eleifend purus ligula eget eros. Sed
+                    tincidunt quam vitae neque pharetra dignissim eget ut
+                    libero.
+                  </p>
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>Sed sagittis rhoncus velit</h4>
+                  <p>
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Vestibulum fermentum
+                    eleifend nibh, vitae sodales elit finibus pretium.
+                    Suspendisse potenti. Ut sollicitudin risus a sollicitudin
+                    semper.
+                  </p>
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="assets/images/right-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-			<div class="colorlib-footer">
-				
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>What I’m good at?</h2>
+            <div class="line-dec"></div>
+            <span
+              >Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
+              Vestibulum congue leo et tellus aliquam, eu viverra nulla semper.
+              Nullam eu faucibus diam. Donec eget massa ante.</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>HTML5 &amp; CSS3</h4>
+                <p>
+                  Phasellus non convallis dolor. Integer tempor hendrerit arcu
+                  at bibendum. Sed ac ante non metus vehicula congue quis eget
+                  eros.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>JavaScript</h4>
+                <p>
+                  Proin lacus massa, eleifend sed fermentum in, dignissim vel
+                  metus. Nunc accumsan leo nec felis porttitor, ultricies
+                  faucibus purus mollis.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>React.js</h4>
+                <p>
+                  Integer suscipit condimentum aliquet. Nam quis risus metus.
+                  Nullam faucibus quam eget arcu pretium tincidunt. Nam libero
+                  dui.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>Vue.js</h4>
+                <p>
+                  Vivamus et dui a massa venenatis fringilla. Proin lacus massa,
+                  eleifend sed fermentum in, dignissim vel metus. Nunc accumsan
+                  leo nec felis porttitor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		</aside>
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span
+              >Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit
+              amet. Duis ac elit vulputate, lobortis arcu quis, vehicula
+              mauris.</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="people"
+                    name="isotope-filter"
+                  />
+                  <span>Full Stack</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="nature"
+                    name="isotope-filter"
+                  />
+                  <span>Back End</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="animals"
+                    name="isotope-filter"
+                  />
+                  <span>Front End</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-01.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-01.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>React</h4>
+                      <span>free to use our template</span>
+                    </figcaption>
+                  </figure>
+                </div>
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hello! <br>I am Mikail</h1>
-						   					
-												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-						   					<h1>I am <br>a Software Developer</h1>
-												
-												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-02.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-02.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Second Title</h4>
+                      <span>please tell your friends</span>
+                    </figcaption>
+                  </figure>
+                </div>
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">About Me</span>
-										<h2 class="colorlib-heading">Who am I?</h2>
-										<p><strong>Hi! I am Mikail Öztürk</strong> </p>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Graphic Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Software</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application</h3>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<div class="hire">
-										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
-										<a href="#" class="btn-hire">Hire me</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-03.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-03.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Item Third</h4>
+                      <span>customize anything</span>
+                    </figcaption>
+                  </figure>
+                </div>
 
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-04.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-04.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Item Fourth</h4>
+                      <span>Re-distribution not allowed</span>
+                    </figcaption>
+                  </figure>
+                </div>
 
-			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div>
-					</div>
-				</div>
-			</div>
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-05.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-05.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Fifth Awesome</h4>
+                      <span>Ut sollicitudin risus</span>
+                    </figcaption>
+                  </figure>
+                </div>
 
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Yetenekler</span>
-							<h2 class="colorlib-heading animate-box">Yeteneklerim</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Node Js</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>React Js</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>JavaScript</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Semantic IO</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								    <span>50%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-06.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-06.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Awesome Sixth</h4>
+                      <span>Donec eget massa ante</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Karabuk University Computer Engineering
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Aybasti Anatolian Teacher High School
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-													<ul>
-														<li>Separated they live in Bookmarksgrove right</li>
-														<li>Separated they live in Bookmarksgrove right</li>
-													</ul>
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
+              efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit.</span
+            >
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Deneyim</span>
-							<h2 class="colorlib-heading animate-box">İş Deneyimi</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
 
-					               <div class="timeline-label">
-					                  <h2><a href="#">Front End Developer at ABC Hosting LTD "mintme.com"</a> <span>2022-2023</span></h2>
-					                  <p>Vue.js, JavaScript, TypeScript, HTML5, CSS3, SASS, SCSS, Symfony, PHP, Docker</p>
-					               </div>
-					            </div>
-					         </article>
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
 
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Front End Developer at WeWanted</a> <span>2018-2019</span></h2>
-					                  <p>React.js, JavaScript, TypeScript, HTML5, CSS3, Semantic UI</p>
-					               </div>
-					            </div>
-					         </article>
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Full Stack Developer at Hitit Computer</a> <span>2017-2018</span></h2>
-					                  <p>Node.js, React.js, Mongo.DB, HTML5, CSS3</p>
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
 
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Çalışmalarım</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> NoSQL </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">NoSQL Nedir Avantajları ve Dezavantajları Hakkında Bilgi</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="./blog.html" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">İletişim</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">michael.ztrk@gmail.com</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>Karabük Bahattin Gazi Yurdu</p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">+90 (545) 455 5555</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
 </html>
-
